@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<title>Div και Span</title>
+<style>
+#header {
+width: 100%;
+height: 100px;
+background-color: lightgray;
+}
+    
+#logo  {
+ float: left;
+background-color: lightblue;
+ }
+
+#languageBar {
+background-color: lightgreen;
+float: right;
+ }
+
+#navigationBar {
+background-color: yellow;
+}
+
+ .myCode {
+font-family: monospace;
+font-style: italic;
+ color: blue;
+background-color: lightgray;
+}
+</style>
+</head>
+<body>
+    
+<h1> Παράδειγμα Χρήσης &quot;div&quot; και &quot;span&quot; </h1>
+<p> Με τον παρακάτω κώδικα επιδεικνύεται μια πρακτική δημιουργίας δομής σελίδας κάνοντας χρήση των στοιχείων div. </p>
+ <hr>
+ <h2> Ενότητες με χρήση &quot;div&quot;</h2>
+ <div id="header">
+ <div id="logo">
+ <img src="logo.png" alt="Logo">
+ </div>
+ <div id="languageBar">
+ Language : <a href="#">Αγγλικά </a> | Ελληνικά
+ </div>
+ </div>
+
+ <div id="navigationBar">
+ Μενού Πλοήγησης : <a href="#">Home</a> | <a href="#">MyCV</a> | <a href="
+#">MyBlog</a> | Schedule
+ </div>
+
+ <div id="main">
+ <h2> Επίδειξη στοιχείου &quot;span&quot;</h2>
+ <p> &rarr; Αυτό είναι το βασικό περιεχόμενο της σελίδας.&nbsp;</p>
+<p>&rarr;Σε αυτή την πρόταση επιλέγουμε τη μορφοποίηση της λέξης <span class="myCode">Κώδικας</span> με χρήση του
+στοιχείου span, θέλωντας να εφαρμόσουμε style μορφοποίησης χωρίς σημασιολογική αξία.
+ </div>
+ </body>
+ </html>
